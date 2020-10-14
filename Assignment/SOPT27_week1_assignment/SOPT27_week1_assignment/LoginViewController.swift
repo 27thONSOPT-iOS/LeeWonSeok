@@ -36,15 +36,15 @@ class LoginViewController: UIViewController {
         }
         
         //        guard let information = self.storyboard?.instantiateViewController(identifier:"ViewController") as? ViewController else {
-//            return
-//        }
-        
+        //            return
+        //        }
+
         information.partName = self.partTextField.text
         information.userName = self.nameTextField.text
         
         // 이전 화면으로 복귀한다
         self.presentingViewController?.dismiss(animated: true, completion: nil)
-//        self.dismiss(animated: true, completion: nil)
+        //        self.dismiss(animated: true, completion: nil)
         
     }
 

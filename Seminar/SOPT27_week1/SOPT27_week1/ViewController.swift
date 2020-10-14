@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     
     @IBAction func touchUpClick(_ sender: Any) {
         helloLabel.text = "SOPT!"
-        helloLabel.sizeToFit()
+        helloLabel.sizeToFit() // 라벨의 크기를 글자에 맞게 변형해주는 메서드
     }
     
     
