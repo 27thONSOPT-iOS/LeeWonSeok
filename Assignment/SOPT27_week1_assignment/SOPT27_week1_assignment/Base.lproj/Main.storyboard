@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="week1_homework" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="SOPT27_week1_assignment" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -68,7 +68,7 @@
         <!--Sign Up-->
         <scene sceneID="LD0-j8-odv">
             <objects>
-                <viewController storyboardIdentifier="signupViewController" id="PEx-Bf-RKS" customClass="signupViewController" customModule="week1_homework" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="signupViewController" id="PEx-Bf-RKS" customClass="signupViewController" customModule="SOPT27_week1_assignment" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="81u-zr-1Zq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -133,12 +133,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oO3-ye-KE4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1666.6666666666667" y="768.75"/>
+            <point key="canvasLocation" x="1538" y="766"/>
         </scene>
         <!--Log in-->
         <scene sceneID="KBn-7n-h8A">
             <objects>
-                <viewController id="7ow-rt-v5u" customClass="LoginViewController" customModule="week1_homework" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7ow-rt-v5u" customClass="LoginViewController" customModule="SOPT27_week1_assignment" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fZf-xJ-ZFR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
