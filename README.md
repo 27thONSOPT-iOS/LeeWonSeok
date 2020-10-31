@@ -1,5 +1,5 @@
-# ON SOPT 27기 iOS git repository
-## Here is our iOS🍎 wonseok🙋🏽‍♂️
+# ON SOPT 27기 iOS, git repository
+## `Here is our iOS🍎` wonseok🙋🏽‍♂️
 
 ### 개발환경 ＞ `Swift 5` / `Xcode12`
 

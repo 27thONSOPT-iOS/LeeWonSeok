@@ -1,5 +1,5 @@
 # wonseok🙋🏽‍♂️
-## 2주차
+## 2주차 
 ### `AutoLayout, StackView, ScrollView`
 ### 2차 세미나 과제 구동화면📲
 `일반과제 + 도전과제 완료`
