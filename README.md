@@ -10,7 +10,7 @@
 |-------|----------|-------|
 | 1주차 |  iOS/Swift기초, Xcode기본 사용법, View 화면 전환 방법 |[🔥](./Assignment/SOPT27_week1_assignment)|
 | 2주차 |  AutoLayout, StackView, ScrollView | [🔥](./Assignment/SOPT27_week2_assignment)|
-| 3주차 |  Delegate Pattern, TableView, CollectionView | - |
+| 3주차 |  Delegate Pattern, TableView, CollectionView | [🔥](./Assignment/SOPT27_week3_assignment) |
 | 4주차 |  Animation, TabBarController, CoCoapods | - |
 | 5주차 |  디자인 합동 세미나 | - |
 | 6주차 |  Networking, Rest API + 솝커톤 | - |
