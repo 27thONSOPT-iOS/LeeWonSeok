@@ -5,3 +5,5 @@
 `일반과제 완료`
 
 <img height="700" src="/Assignment/SOPT27_week3_assignment/SOPT27_week3_assignment/week3_assignment_simul.gif">
+
+[참고했던 자료1](https://www.youtube.com/watch?v=6bAHxFEZi3o&feature=youtu.be), [참고했던 자료2](https://zeddios.tistory.com/998)
