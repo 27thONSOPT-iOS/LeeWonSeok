@@ -2,27 +2,37 @@
 //  ViewController.swift
 //  SOPT27_week3_assignment
 //
-//  Created by 이원석 on 2020/11/03.
+//  Created by 이원석 on 2020/11/06.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var week3CollectionView: UICollectionView!
+    @IBOutlet weak var topView: UIView!
+    @IBOutlet weak var collectionView: UICollectionView!
     
     //데이터를 담기 위한 배열 선언
     var userdataList : [UserData] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         setData()
-        week3CollectionView.delegate = self
-        week3CollectionView.dataSource = self
+        
+        collectionView.register(week3CollectionViewCell.nib(), forCellWithReuseIdentifier: week3CollectionViewCell.identifier) // .xib 셀 등록
+        
+        collectionView.delegate = self
+        collectionView.dataSource = self
+        collectionView.backgroundColor = .white
     }
     
-    // 데이터 담기 주섬주섬
+// 얘는 왜 필요한지 모르겠당..
+//    override func viewDidLayoutSubviews() {
+//        //super.viewDidLayoutSubviews()
+//
+//    }
+    
+    
     func setData()
     {
         userdataList.append(contentsOf: [
@@ -39,46 +49,65 @@ class ViewController: UIViewController {
             UserData(name: "이정연", imageName: "yeonjeong", contents: "#플레이스픽 #ENFJ #기획_디자인_개발_다"),
             UserData(name: "홍준엽", imageName: "junyeop", contents: "#26기서버 #27기웹 #샵이_두개면_어떻게될까? ##")
         ])
-        
     }
 }
 
-// 아직 미사용
 extension ViewController: UICollectionViewDelegate {
+    
 }
 
 extension ViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return userdataList.count
-        
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        guard let week3cell = collectionView.dequeueReusableCell(withReuseIdentifier: "week3CollectionCell", for: indexPath) as? week3CollectionCell else { return UICollectionViewCell() }
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "week3CollectionViewCell", for: indexPath) as? week3CollectionViewCell else {
+                    return UICollectionViewCell()
+                }
         
-        week3cell.setUserData(name: userdataList[indexPath.row].name, imageName: userdataList[indexPath.row].imageName, contents: userdataList[indexPath.row].contents)
-        
-        return week3cell
+        cell.setUserData(name: userdataList[indexPath.row].name, imageName: userdataList[indexPath.row].imageName, contents: userdataList[indexPath.row].contents)
+        return cell
     }
+    
     
 }
 
 extension ViewController: UICollectionViewDelegateFlowLayout {
     
-    // 셀의 넓이, 높이 지정
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+    func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+        let headerview = collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: HeaderCollectionReusableView.identifier, for: indexPath) as! HeaderCollectionReusableView
         
-        let width = (self.week3CollectionView.frame.width - 50) / 2
-        
-        return CGSize(width: width, height: 240)
-
+        return headerview
     }
     
-    // 셀 margin 지정
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout:
-    UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-        return UIEdgeInsets(top: 41, left: 17, bottom: 0, right: 17)
+    // 헤더 사이즈
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
+        return CGSize(width: collectionView.frame.width, height: 420)
     }
-
+    
+    // Cell 사이즈
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize
+            {
+                return CGSize(width: 150, height: 225)
+            
+            }
+    
+    //Cell간의 위아래 간격지정
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat
+        {
+                return 0
+        }
+    
+    //Cell간의 좌우간격 지정
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat
+        {
+                return 27
+        }
+    
+    // 마진
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets
+        {
+                return UIEdgeInsets(top: 40, left: (view.frame.width - 300)/3, bottom: 0, right: (view.frame.width - 300)/3)
+        }
 }
-
