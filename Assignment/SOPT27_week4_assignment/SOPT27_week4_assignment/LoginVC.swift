@@ -35,22 +35,8 @@ class LoginVC: UIViewController{
         AlVC.userName = self.userNameTextField.text
         
         self.dismiss(animated: false, completion: nil)
-        }
+    }
 }
-        // presentingViewController 속성을 통해 이전 화면 객체를 읽어온 다음, ViewController 타입으로 캐스팅한다
-        //let preVc = self.presentingViewController
-        
-//        guard let information = self.presentingViewController as? AlreadyLoginVC else {
-//                    return
-//                }
-//        information.partName = self.partTextField.text
-//        information.userName = self.userNameTextField.text
-        
-        // 이전 화면으로 복귀한다
-//        self.presentingViewController?.dismiss(animated: true, completion: nil)
-        
-        //self.dismiss(animated: true, completion: nil)
-
 
 extension LoginVC: UITextFieldDelegate {
     func setupNotification() {
