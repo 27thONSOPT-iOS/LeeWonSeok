@@ -23,7 +23,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="juhyeok" translatesAutoresizingMaskIntoConstraints="NO" id="yHQ-Lm-Ub3">
                                 <rect key="frame" x="0.0" y="0.0" width="151" height="140"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="contents" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="nT4-tm-wUf">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="contents" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nT4-tm-wUf">
                                 <rect key="frame" x="4" y="150" width="143" height="94"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
