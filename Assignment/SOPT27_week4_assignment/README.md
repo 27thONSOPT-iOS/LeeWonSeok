@@ -3,8 +3,6 @@
 ### `TabBar Controller, Animation, CoCoaPods`
 ### 4차 세미나 과제 구동화면📲
 `일반과제+도전과제 완료`
-* 도전과제 화면에서 SOPTWORKING 배너 부분이 SuperView로 되어있지만 힘차게 위로 스크롤 해보면..?
-* 사라졌던 TopView가 내려오기 전에 위쪽에 남아있는 흰 공간이 보인다..왜일까?ㅠㅠ
 
 <img height="700" src="./SOPT27_week4_assignment/week4_assignment_simul.gif">
 
