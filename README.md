@@ -12,8 +12,8 @@
 | 2주차 |  AutoLayout, StackView, ScrollView | [🔥](./Assignment/SOPT27_week2_assignment) |
 | 3주차 |  Delegate Pattern, TableView, CollectionView | [🔥](./Assignment/SOPT27_week3_assignment) |
 | 4주차 |  Animation, TabBarController, CoCoapods | [🔥](./Assignment/SOPT27_week4_assignment) |
-| 5주차 |  디자인 합동 세미나 | - |
-| 6주차 |  Networking, Rest API + 솝커톤 | - |
+| 5주차 |  디자인 합동 세미나 | 🔥 |
+| 6주차 |  Networking, Rest API + 솝커톤 | [🔥](./Assignment/SOPT27_week6_assignment) |
 | 7주차 |  서버 합동 세미나 | - |
 | 8주차 |  기획 경선 + Open API + 앱잼 전 보충 세미나 | - |
 
