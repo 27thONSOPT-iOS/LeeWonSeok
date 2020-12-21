@@ -14,7 +14,7 @@
 | 4주차 |  Animation, TabBarController, CoCoapods | [🔥](./Assignment/SOPT27_week4_assignment) |
 | 6주차 |  Networking, Rest API + 솝커톤 | [🔥](./Assignment/SOPT27_week6_assignment) |
 | 7주차 |  디자인,서버 합동 세미나 | [🤝](https://github.com/SOPT-Team6/Kyobo_iOS_Develop) |
-| 8주차 |  기획 경선 + Open API(NaverMaps) + 앱잼 전 보충 세미나 | ![](https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1599714667/noticon/vxfzylyicvntj7au8mha.png) [🔥](./Seminar/NaverMapsAPITest) |
+| 8주차 |  기획 경선 + Open API(NaverMaps) + 앱잼 전 보충 세미나 | [🔥](./Seminar/NaverMapsAPITest) |
 
 
 
