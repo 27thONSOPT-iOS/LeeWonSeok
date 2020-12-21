@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -49,7 +49,7 @@
                                                                         <rect key="frame" x="0.0" y="0.0" width="165.5" height="165.5"/>
                                                                     </imageView>
                                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="01U-Yh-WzX">
-                                                                        <rect key="frame" x="4" y="166" width="157.5" height="49"/>
+                                                                        <rect key="frame" x="4" y="162" width="157.5" height="42.5"/>
                                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                         <string key="text">#hereis#아요#내꿈은
 #사과농장#ENFP</string>
@@ -58,16 +58,16 @@
                                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                                     </textView>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="S9D-b0-bDk">
-                                                                        <rect key="frame" x="15" y="124" width="80.5" height="22"/>
+                                                                        <rect key="frame" x="15" y="124" width="80.5" height="18"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="이주혁" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hDf-xd-gGC">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="33.5" height="18"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="31.5" height="14"/>
                                                                                 <fontDescription key="fontDescription" name="NotoSansCJKkr-Bold" family="Noto Sans CJK KR" pointSize="12"/>
                                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellowbar" translatesAutoresizingMaskIntoConstraints="NO" id="Obd-mS-3Ny">
-                                                                                <rect key="frame" x="0.0" y="18" width="65" height="4"/>
+                                                                                <rect key="frame" x="0.0" y="14" width="65" height="4"/>
                                                                             </imageView>
                                                                         </subviews>
                                                                     </stackView>
@@ -154,23 +154,23 @@
                                                                         <rect key="frame" x="0.0" y="0.0" width="165.5" height="165.5"/>
                                                                     </imageView>
                                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="#핸드피쓰 #이너피쓰 #배꼽도둑 #헬린이 #sson_peace7" translatesAutoresizingMaskIntoConstraints="NO" id="qv7-B9-UWE">
-                                                                        <rect key="frame" x="4" y="166" width="157.5" height="49"/>
+                                                                        <rect key="frame" x="4" y="162" width="157.5" height="42.5"/>
                                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                         <color key="textColor" systemColor="labelColor"/>
                                                                         <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="11"/>
                                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                                     </textView>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="xjT-VI-PJb">
-                                                                        <rect key="frame" x="15" y="124" width="80.5" height="22"/>
+                                                                        <rect key="frame" x="15" y="124" width="80.5" height="18"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="손평화" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3bh-5D-bdh">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="33.5" height="18"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="31.5" height="14"/>
                                                                                 <fontDescription key="fontDescription" name="NotoSansCJKkr-Bold" family="Noto Sans CJK KR" pointSize="12"/>
                                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellowbar" translatesAutoresizingMaskIntoConstraints="NO" id="NN4-AB-dVH">
-                                                                                <rect key="frame" x="0.0" y="18" width="65" height="4"/>
+                                                                                <rect key="frame" x="0.0" y="14" width="65" height="4"/>
                                                                             </imageView>
                                                                         </subviews>
                                                                     </stackView>
@@ -196,23 +196,23 @@
                                                                         <rect key="frame" x="0.0" y="0.0" width="165.5" height="165.5"/>
                                                                     </imageView>
                                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="#총무꿈나무 #유총무 #현재_소식중 #풉" translatesAutoresizingMaskIntoConstraints="NO" id="gwd-cF-307">
-                                                                        <rect key="frame" x="4" y="166" width="157.5" height="59"/>
+                                                                        <rect key="frame" x="4" y="162" width="157.5" height="63"/>
                                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                         <color key="textColor" systemColor="labelColor"/>
                                                                         <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="11"/>
                                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                                     </textView>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="dkw-xk-pWz">
-                                                                        <rect key="frame" x="15" y="124" width="80.5" height="22"/>
+                                                                        <rect key="frame" x="15" y="124" width="80.5" height="18"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="유희수" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HZl-yF-sIS">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="33.5" height="18"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="31.5" height="14"/>
                                                                                 <fontDescription key="fontDescription" name="NotoSansCJKkr-Bold" family="Noto Sans CJK KR" pointSize="12"/>
                                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellowbar" translatesAutoresizingMaskIntoConstraints="NO" id="saK-qo-qwX">
-                                                                                <rect key="frame" x="0.0" y="18" width="65" height="4"/>
+                                                                                <rect key="frame" x="0.0" y="14" width="65" height="4"/>
                                                                             </imageView>
                                                                         </subviews>
                                                                     </stackView>
@@ -247,23 +247,23 @@
                                                                         <rect key="frame" x="0.0" y="0.0" width="165.5" height="165.5"/>
                                                                     </imageView>
                                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="#마 #아요는 #처음입니다" translatesAutoresizingMaskIntoConstraints="NO" id="HTA-Mv-nK6">
-                                                                        <rect key="frame" x="4" y="166" width="157.5" height="32.5"/>
+                                                                        <rect key="frame" x="4" y="162" width="157.5" height="29.5"/>
                                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                         <color key="textColor" systemColor="labelColor"/>
                                                                         <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="11"/>
                                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                                     </textView>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="QhL-t9-vmy">
-                                                                        <rect key="frame" x="15" y="124" width="80.5" height="22"/>
+                                                                        <rect key="frame" x="15" y="124" width="80.5" height="18"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="박세은" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Awe-SW-dIM">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="33.5" height="18"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="31.5" height="14"/>
                                                                                 <fontDescription key="fontDescription" name="NotoSansCJKkr-Bold" family="Noto Sans CJK KR" pointSize="12"/>
                                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellowbar" translatesAutoresizingMaskIntoConstraints="NO" id="nId-ky-Lvs">
-                                                                                <rect key="frame" x="0.0" y="18" width="65" height="4"/>
+                                                                                <rect key="frame" x="0.0" y="14" width="65" height="4"/>
                                                                             </imageView>
                                                                         </subviews>
                                                                     </stackView>
@@ -289,23 +289,23 @@
                                                                         <rect key="frame" x="0.0" y="0.0" width="165.5" height="165.5"/>
                                                                     </imageView>
                                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="#ENFP #STORM #울크박스 #@hwooolll #하늘콜렉터" translatesAutoresizingMaskIntoConstraints="NO" id="Mmz-tM-vLw">
-                                                                        <rect key="frame" x="4" y="166" width="157.5" height="59"/>
+                                                                        <rect key="frame" x="4" y="162" width="157.5" height="63"/>
                                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                         <color key="textColor" systemColor="labelColor"/>
                                                                         <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="11"/>
                                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                                     </textView>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="jdN-gj-3C0">
-                                                                        <rect key="frame" x="15" y="124" width="80.5" height="22"/>
+                                                                        <rect key="frame" x="15" y="124" width="80.5" height="18"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="한울" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y8F-Jk-O3Y">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="22.5" height="18"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="21" height="14"/>
                                                                                 <fontDescription key="fontDescription" name="NotoSansCJKkr-Bold" family="Noto Sans CJK KR" pointSize="12"/>
                                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellowbar" translatesAutoresizingMaskIntoConstraints="NO" id="PoC-2J-i74">
-                                                                                <rect key="frame" x="0.0" y="18" width="65" height="4"/>
+                                                                                <rect key="frame" x="0.0" y="14" width="65" height="4"/>
                                                                             </imageView>
                                                                         </subviews>
                                                                     </stackView>
@@ -340,23 +340,23 @@
                                                                         <rect key="frame" x="0.0" y="0.0" width="165.5" height="165.5"/>
                                                                     </imageView>
                                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="#고객중심#고객행동데이터기반한#UX디자이너#워너비,," translatesAutoresizingMaskIntoConstraints="NO" id="PWT-WR-N1U">
-                                                                        <rect key="frame" x="4" y="166" width="157.5" height="65"/>
+                                                                        <rect key="frame" x="4" y="162" width="157.5" height="42.5"/>
                                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                         <color key="textColor" systemColor="labelColor"/>
                                                                         <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="11"/>
                                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                                     </textView>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="SfF-OU-07L">
-                                                                        <rect key="frame" x="15" y="124" width="80.5" height="22"/>
+                                                                        <rect key="frame" x="15" y="124" width="80.5" height="18"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="김한솔" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SO0-3t-pme">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="33.5" height="18"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="31.5" height="14"/>
                                                                                 <fontDescription key="fontDescription" name="NotoSansCJKkr-Bold" family="Noto Sans CJK KR" pointSize="12"/>
                                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellowbar" translatesAutoresizingMaskIntoConstraints="NO" id="hHc-6S-GuI">
-                                                                                <rect key="frame" x="0.0" y="18" width="65" height="4"/>
+                                                                                <rect key="frame" x="0.0" y="14" width="65" height="4"/>
                                                                             </imageView>
                                                                         </subviews>
                                                                     </stackView>
@@ -382,23 +382,23 @@
                                                                         <rect key="frame" x="0.0" y="0.0" width="165.5" height="165.5"/>
                                                                     </imageView>
                                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="#디팟장 #개자이너 #최종목표는행복" translatesAutoresizingMaskIntoConstraints="NO" id="mxy-WA-KBm">
-                                                                        <rect key="frame" x="4" y="166" width="157.5" height="59"/>
+                                                                        <rect key="frame" x="4" y="162" width="157.5" height="63"/>
                                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                         <color key="textColor" systemColor="labelColor"/>
                                                                         <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="11"/>
                                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                                     </textView>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="VKv-le-3p9">
-                                                                        <rect key="frame" x="15" y="124" width="80.5" height="22"/>
+                                                                        <rect key="frame" x="15" y="124" width="80.5" height="18"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="배민주" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="amq-aX-7S0">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="33.5" height="18"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="31.5" height="14"/>
                                                                                 <fontDescription key="fontDescription" name="NotoSansCJKkr-Bold" family="Noto Sans CJK KR" pointSize="12"/>
                                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellowbar" translatesAutoresizingMaskIntoConstraints="NO" id="M82-XN-Vtv">
-                                                                                <rect key="frame" x="0.0" y="18" width="65" height="4"/>
+                                                                                <rect key="frame" x="0.0" y="14" width="65" height="4"/>
                                                                             </imageView>
                                                                         </subviews>
                                                                     </stackView>
@@ -433,23 +433,23 @@
                                                                         <rect key="frame" x="0.0" y="0.0" width="165.5" height="165.5"/>
                                                                     </imageView>
                                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="#서팟짱 #솝트3회차 #앱잼_요리_개발자 #UX/UI" translatesAutoresizingMaskIntoConstraints="NO" id="mWR-Qn-Zt6">
-                                                                        <rect key="frame" x="4" y="166" width="157.5" height="49"/>
+                                                                        <rect key="frame" x="4" y="162" width="157.5" height="42.5"/>
                                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                         <color key="textColor" systemColor="labelColor"/>
                                                                         <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="11"/>
                                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                                     </textView>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="424-84-dCQ">
-                                                                        <rect key="frame" x="15" y="124" width="80.5" height="22"/>
+                                                                        <rect key="frame" x="15" y="124" width="80.5" height="18"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="최영훈" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DWG-jr-1nq">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="33.5" height="18"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="31.5" height="14"/>
                                                                                 <fontDescription key="fontDescription" name="NotoSansCJKkr-Bold" family="Noto Sans CJK KR" pointSize="12"/>
                                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellowbar" translatesAutoresizingMaskIntoConstraints="NO" id="n07-Pq-UU0">
-                                                                                <rect key="frame" x="0.0" y="18" width="65" height="4"/>
+                                                                                <rect key="frame" x="0.0" y="14" width="65" height="4"/>
                                                                             </imageView>
                                                                         </subviews>
                                                                     </stackView>
@@ -475,23 +475,23 @@
                                                                         <rect key="frame" x="0.0" y="0.0" width="165.5" height="165.5"/>
                                                                     </imageView>
                                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="#밍맹 #안팟장 #이래뵈도_귀여운거좋아함 #지박령 #허당" translatesAutoresizingMaskIntoConstraints="NO" id="RX9-Yq-86j">
-                                                                        <rect key="frame" x="4" y="166" width="157.5" height="59"/>
+                                                                        <rect key="frame" x="4" y="162" width="157.5" height="63"/>
                                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                         <color key="textColor" systemColor="labelColor"/>
                                                                         <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="11"/>
                                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                                     </textView>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="0s3-Mp-DEr">
-                                                                        <rect key="frame" x="15" y="124" width="80.5" height="22"/>
+                                                                        <rect key="frame" x="15" y="124" width="80.5" height="18"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="강민구" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LBz-sn-Dla">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="33.5" height="18"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="31.5" height="14"/>
                                                                                 <fontDescription key="fontDescription" name="NotoSansCJKkr-Bold" family="Noto Sans CJK KR" pointSize="12"/>
                                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellowbar" translatesAutoresizingMaskIntoConstraints="NO" id="83r-2F-J3y">
-                                                                                <rect key="frame" x="0.0" y="18" width="65" height="4"/>
+                                                                                <rect key="frame" x="0.0" y="14" width="65" height="4"/>
                                                                             </imageView>
                                                                         </subviews>
                                                                     </stackView>
@@ -526,23 +526,23 @@
                                                                         <rect key="frame" x="0.0" y="0.0" width="165.5" height="165.5"/>
                                                                     </imageView>
                                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="#플레이스픽 #ENFJ #기획_디자인_개발_다" translatesAutoresizingMaskIntoConstraints="NO" id="CWu-I8-Olr">
-                                                                        <rect key="frame" x="4" y="166" width="157.5" height="49"/>
+                                                                        <rect key="frame" x="4" y="162" width="157.5" height="42.5"/>
                                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                         <color key="textColor" systemColor="labelColor"/>
                                                                         <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="11"/>
                                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                                     </textView>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="N1d-RU-ASe">
-                                                                        <rect key="frame" x="15" y="124" width="80.5" height="22"/>
+                                                                        <rect key="frame" x="15" y="124" width="80.5" height="18"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="이정연" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MTn-VJ-vZj">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="33.5" height="18"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="31.5" height="14"/>
                                                                                 <fontDescription key="fontDescription" name="NotoSansCJKkr-Bold" family="Noto Sans CJK KR" pointSize="12"/>
                                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellowbar" translatesAutoresizingMaskIntoConstraints="NO" id="Cc3-R1-vyO">
-                                                                                <rect key="frame" x="0.0" y="18" width="65" height="4"/>
+                                                                                <rect key="frame" x="0.0" y="14" width="65" height="4"/>
                                                                             </imageView>
                                                                         </subviews>
                                                                     </stackView>
@@ -568,23 +568,23 @@
                                                                         <rect key="frame" x="0.0" y="0.0" width="165.5" height="165.5"/>
                                                                     </imageView>
                                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="#26기서버 #27기웹 #샵이_두개면_어떻게될까? ##" translatesAutoresizingMaskIntoConstraints="NO" id="tUD-ug-l5x">
-                                                                        <rect key="frame" x="4" y="166" width="157.5" height="59"/>
+                                                                        <rect key="frame" x="4" y="162" width="157.5" height="63"/>
                                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                         <color key="textColor" systemColor="labelColor"/>
                                                                         <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="11"/>
                                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                                     </textView>
                                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="WSt-lU-U7Y">
-                                                                        <rect key="frame" x="15" y="124" width="80.5" height="22"/>
+                                                                        <rect key="frame" x="15" y="124" width="80.5" height="18"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="홍준엽" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HaT-aa-Cnm">
-                                                                                <rect key="frame" x="0.0" y="0.0" width="33.5" height="18"/>
+                                                                                <rect key="frame" x="0.0" y="0.0" width="31.5" height="14"/>
                                                                                 <fontDescription key="fontDescription" name="NotoSansCJKkr-Bold" family="Noto Sans CJK KR" pointSize="12"/>
                                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellowbar" translatesAutoresizingMaskIntoConstraints="NO" id="qmb-Xp-pvx">
-                                                                                <rect key="frame" x="0.0" y="18" width="65" height="4"/>
+                                                                                <rect key="frame" x="0.0" y="14" width="65" height="4"/>
                                                                             </imageView>
                                                                         </subviews>
                                                                     </stackView>
@@ -634,19 +634,19 @@
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Hf6-Tz-Cu5">
-                                                <rect key="frame" x="75" y="179.5" width="264" height="55"/>
+                                                <rect key="frame" x="75" y="184.5" width="264" height="44.5"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SOPT + NETWORKING" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BJE-q6-xBc">
-                                                        <rect key="frame" x="0.0" y="0.0" width="264" height="37"/>
+                                                        <rect key="frame" x="1" y="0.0" width="262" height="29.5"/>
                                                         <fontDescription key="fontDescription" name="NotoSansCJKkr-Bold" family="Noto Sans CJK KR" pointSize="25"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="bYd-Co-ycI">
-                                                        <rect key="frame" x="0.0" y="37" width="264" height="3"/>
+                                                        <rect key="frame" x="0.0" y="29.5" width="264" height="3"/>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="대학생 연합 IT 창업 동아리의 네트워킹을 위한 플랫폼입니다." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mrL-UW-smp">
-                                                        <rect key="frame" x="6.5" y="40" width="251.5" height="15"/>
+                                                        <rect key="frame" x="13" y="32.5" width="238.5" height="12"/>
                                                         <fontDescription key="fontDescription" name="NotoSansCJKkr-Medium" family="Noto Sans CJK KR" pointSize="10"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
